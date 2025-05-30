@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Content Example</title>
     <style>
-        /* Optional: Basic styling for better appearance */
+       
         body {
             font-family: sans-serif;
             display: flex;
-            flex-direction: column; /* Changed to column to stack elements */
+            flex-direction: column; 
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background-color: powderblue; /* Moved background-color here */
+            background-color: powderblue; 
         }
         .search-container {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px; /* Add some space below search bar */
+            margin-bottom: 20px; 
         }
         .search-container input[type="search"] {
             padding: 10px;
@@ -43,14 +43,14 @@
         .search-container button:hover {
             background-color: #0056b3;
         }
-        /* Style for the dynamically loaded content */
+        
         #contentArea {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            width: 80%; /* Adjust width as needed */
-            max-width: 600px; /* Max width for readability */
+            width: 80%; 
+            max-width: 600px;
             text-align: center;
         }
         #contentArea p {
@@ -59,21 +59,21 @@
             font-weight: bold;
         }
         #contentArea a {
-            display: block; /* Make links take full width for better clicking */
+            display: block; 
             margin-bottom: 10px;
-            word-wrap: break-word; /* Prevents long URLs from breaking layout */
+            word-wrap: break-word; 
         }
-        /* Specific styling for the H3 within the dynamic content */
+        
         #contentArea h3 {
             color: #555;
             margin-top: 0;
             margin-bottom: 20px;
         }
-        /* Correct the image styling based on your input */
+        
         #contentArea img {
-            width: 100px; /* Corrected to use px unit for width */
-            display: block; /* Centers the image if container is text-align center */
-            margin: 0 auto 20px auto; /* Centers the image */
+            width: 100px; 
+            display: block; 
+            margin: 0 auto 20px auto; 
         }
     </style>
 
@@ -90,8 +90,21 @@ function loadMainContent() {
     <p>Youtube</p>
     <a href="http://www.youtube.com/" style="color:red;">http://www.youtube.com/</a> <p>W3 SCHOOLS</p>
     <a href="https://www.w3schools.com/" style="color:green;">https://www.w3schools.com/</a>
-    <p>And Last But Not Least Google!!</p>
+    <p>Google</p>
     <a href="https://www.google.com/" style="color:gold;">https://www.google.com/</a>
+ 	<p>Softonic</p>
+	<a href="https://www.softonic.com style="color:tomato;">https://www.softonic.com/</a>
+	<p>Microsoft</p>
+	<a href="https://www.microsoft.com" style="color:powderblue">https://www.microsoft.com</a>
+	<p>ChatGPT</p>
+	<a href="https://openai.com/chatgpt/overview/" style="color:powdergreen;">https://openai.com/chatgpt/overview/</a>
+	<p>Gemini</p>
+	<a href="https://cloud.google.com/products/gemini style="color:darkblue;">https://cloud.google.com/products/gemini</a>
+	<p>DeepSeek R1<p>
+	<a href="https://deepseek.com/en" style="color:violent;">https://deepseek.com/en</a>
+	
+	
+ 
   `;
 }
 </script>
