@@ -86,12 +86,23 @@ function clearContent() {
 // Function to load the "main page" content
 function loadMainContent() {
   document.getElementById("contentArea").innerHTML = `
-    <h1 style="color:blue;">About Shorcuteez</h1>
-	<p style="color:powderblue;">Shorcuteez is a website where you can access everyday websites.No need to be scared,<br> this website has official shortcuts to everyday websites so you dont get scammed by fraud websites.<br>We have a growing number of shortcuts.
-	<hr style="color:powderblue;">
-	<h2 style="color:blue;">How to access these shortcuts?</h2>
-	<p style="color:powderblue;">You can access them by just cliking on them.
-	<hr style="color:powderblue;">
+    <img src="Logo.png" style="width: 100px;"> <h3 id="demo">Everyone's favourites</h3>
+    <p>Youtube</p>
+    <a href="http://www.youtube.com/" style="color:red;">http://www.youtube.com/</a> <p>W3 SCHOOLS</p>
+    <a href="https://www.w3schools.com/" style="color:green;">https://www.w3schools.com/</a>
+    <p>Google</p>
+    <a href="https://www.google.com/" style="color:gold;">https://www.google.com/</a>
+ 	<p>Softonic</p>
+	<a href="https://www.softonic.com style="color:tomato;">https://www.softonic.com/</a>
+	<p>Microsoft</p>
+	<a href="https://www.microsoft.com" style="color:powderblue">https://www.microsoft.com</a>
+	<p>ChatGPT</p>
+	<a href="https://openai.com/chatgpt/overview/" style="color:powdergreen;">https://openai.com/chatgpt/overview/</a>
+	<p>Gemini</p>
+	<a href="https://cloud.google.com/products/gemini style="color:darkblue;">https://cloud.google.com/products/gemini</a>
+	<p>DeepSeek R1<p>
+	<a href="https://deepseek.com/en" style="color:violent;">https://deepseek.com/en</a>
+	
 	
  
   `;
@@ -100,15 +111,17 @@ function loadMainContent() {
 </head>
 <body>
 
-
+<div class="search-container">
+    <input type="search" placeholder="Search HooHle...">
+    <button>Search</button>
+</div>
 
 <div id="contentArea">
-    <p id="initialMessage">Click "Show Content".</p>
+    <p id="initialMessage">Click "Show Content" to see the favourites!</p>
 </div>
 
 <button type="button" onclick="loadMainContent()">Show Content</button>
-
-<p>@2025-----------------------------------------------------------------------------------------Harshj58--------------------------------------------------------------------------------WEBLITE</p>
+<button type="button" onclick="clearContent()">Clear Content</button>
 
 </body>
 </html>
